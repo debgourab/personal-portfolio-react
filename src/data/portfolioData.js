@@ -70,7 +70,7 @@ export const hero = {
   name: 'Deb Gourab Biswas',
   intro:
     'I build modern, responsive and user-friendly web applications using React, JavaScript and the MERN Stack, with a focus on clean UI, reusable components and scalable web development.',
-  profileImage: '/public/images/profile/deb-gourab-biswas.jpeg',
+  profileImage: '/images/profile/deb-gourab-biswas.jpeg',
 };
 
 export const stats = [
