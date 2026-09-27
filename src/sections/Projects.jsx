@@ -9,9 +9,9 @@ export function Projects() {
     <section id="projects" className="section-shell" aria-labelledby="projects-title">
       <SectionHeader
         id="projects-title"
-        eyebrow="Portfolio Showcase"
-        title="Featured Projects"
-        description="Explore recent web applications engineered with modern Frontend , React & MERN stack architecture."
+        eyebrow="PROJECTS"
+        title="Selected Development Projects"
+        description="Hands-on projects demonstrating React, frontend development, REST APIs and MERN stack implementation."
       />
 
       <motion.div
