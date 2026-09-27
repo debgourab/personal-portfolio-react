@@ -10,8 +10,8 @@ export function Certifications() {
       <SectionHeader
         id="certifications-title"
         eyebrow="Certifications"
-        title="Credentials & Learning"
-        description=""
+        title="Certifications & Training"
+        description="Coursework and certifications across frontend, full-stack development, version control and problem solving."
       />
 
       <motion.div
