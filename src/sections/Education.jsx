@@ -8,8 +8,8 @@ export function Education() {
       <SectionHeader
         id="education-title"
         eyebrow="Education"
-        title="Academic Journey & Training"
-        description="A focused timeline of academic programs and full-stack development training."
+        title="Education & Training"
+        description="Academic background and professional full-stack development training."
       />
 
       <div className="education-list">
