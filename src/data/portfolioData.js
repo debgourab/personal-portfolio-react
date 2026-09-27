@@ -36,7 +36,7 @@ export const navigation = [
   { label: "Skills", href: "#skills", id: "skills" },
   { label: "Education", href: "#education", id: "education" },
   { label: "Certifications", href: "#certifications", id: "certifications" },
-  { label: "Services", href: "#services", id: "services" },
+  { label: "Capabilities", href: "#capabilities", id: "capabilities" },
   { label: "Projects", href: "#projects", id: "projects" },
   { label: "Contact", href: "#contact", id: "contact" },
 ];
@@ -311,7 +311,7 @@ export const projects = [
     image: "/images/projects/expenseflow.png",
     live: "https://expensetracker-deb.vercel.app/",
     github: "https://github.com/debgourab/expense-tracker-client",
-    tech: ["Html", "Css", "JavaScript", "REST API", "Node.js", "Express.js", "MongoDB"],
+    tech: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT", "REST API"],
     icon: IndianRupee,
   },
   {
