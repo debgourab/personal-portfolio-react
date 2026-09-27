@@ -989,6 +989,13 @@ button.desktop-resume {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.services-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 1.25rem;
+}
+
 .certificate-card,
 .project-card,
 .service-card,
@@ -1051,7 +1058,7 @@ button.desktop-resume {
 }
 
 .service-card {
-  min-height: 275px;
+  min-height: 240px;
 }
 
 .service-number {
