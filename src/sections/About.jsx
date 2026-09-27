@@ -9,8 +9,8 @@ export function About() {
       <SectionHeader
         id="about-title"
         eyebrow="About Me"
-        title="Crafting Digital Experiences With Passion"
-        description="Focused on clean interfaces, reusable components and practical full-stack web development."
+        title="Full Stack Developer Focused on React & MERN"
+        description="Building responsive, maintainable web applications using React, JavaScript, Node.js, Express.js and MongoDB."
       />
 
       <div className="about-grid">
@@ -23,7 +23,7 @@ export function About() {
         </AnimatedSection>
 
         <AnimatedSection className="about-copy">
-          <h3>Frontend, React & Full-Stack Developer</h3>
+          <h3>Full Stack Developer | React & MERN Stack</h3>
           {about.paragraphs.map((paragraph) => (
             <p key={paragraph}>{paragraph}</p>
           ))}
