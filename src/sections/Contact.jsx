@@ -109,19 +109,18 @@ export function Contact() {
     <section id="contact" className="section-shell" aria-labelledby="contact-title">
       <SectionHeader
         id="contact-title"
-        eyebrow="Get In Touch"
-        title="Let's Build Something Great Together"
-        description="Open to Full-Time frontend, React, MERN stack and full-stack developer opportunities."
+        eyebrow="LET'S CONNECT"
+        title="Open to Full-Time Opportunities"
+        description="Seeking Full Stack, MERN, React and Frontend Developer opportunities."
       />
 
       <div className="contact-grid">
         <AnimatedSection className="contact-info">
           <GlassCard className="contact-panel">
             <span className="section-eyebrow">Contact Information</span>
-            <h3>Start a conversation</h3>
+            <h3>Get in Touch</h3>
             <p>
-              I am available for full-time opportunities where I can contribute,
-              learn and keep building polished web applications.
+              Feel free to contact me regarding developer opportunities or project discussions.
             </p>
 
             <div className="contact-list">
