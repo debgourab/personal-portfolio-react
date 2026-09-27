@@ -28,7 +28,7 @@ import {
 } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "../components/BrandIcons";
 
-export const resumePath = "/public/Deb-Gourab-Biswas-resume.pdf";
+export const resumePath = "/Deb-Gourab-Biswas-resume.pdf";
 
 export const navigation = [
   { label: "Home", href: "#home", id: "home" },
@@ -308,7 +308,7 @@ export const projects = [
     title: "ExpenseFlow-FullStack",
     description:
       "A full-stack expense tracking application with secure authentication, expense CRUD operations, filtering, sorting, dashboard summaries, and CSV export for simple personal finance management.",
-    image: "/public/images/projects/expenseflow.png",
+    image: "/images/projects/expenseflow.png",
     live: "https://expensetracker-deb.vercel.app/",
     github: "https://github.com/debgourab/expense-tracker-client",
     tech: ["Html", "Css", "JavaScript", "REST API", "Node.js", "Express.js", "MongoDB"],
@@ -318,7 +318,7 @@ export const projects = [
     title: "ShoppyGlobe-MERN",
     description:
       "A full-stack e-commerce application with product browsing, cart management, secure JWT authentication, RESTful APIs and MongoDB-backed data.",
-    image: "/public/images/projects/shoppyglobe-mern.png",
+    image: "/images/projects/shoppyglobe-mern.png",
     live: "https://shoppyglobe-deb.vercel.app/",
     github: "https://github.com/debgourab/shoppyglobe-ui",
     tech: [
