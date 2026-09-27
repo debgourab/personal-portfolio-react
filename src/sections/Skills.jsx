@@ -10,8 +10,8 @@ export function Skills() {
       <SectionHeader
         id="skills-title"
         eyebrow="Skills"
-        title="Skills & Technologies"
-        description="Core tools and technologies I use to build responsive frontend and MERN stack applications."
+        title="Technical Skills & Tools"
+        description="Technologies I use to build responsive frontend and full-stack web applications."
       />
 
       <motion.div
