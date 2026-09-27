@@ -9,9 +9,9 @@ export function Services() {
     <section id="services" className="section-shell" aria-labelledby="services-title">
       <SectionHeader
         id="services-title"
-        eyebrow="Services"
-        title="What I Can Help Build"
-        description="Practical development services aligned with frontend, React and MERN stack opportunities."
+        eyebrow="CAPABILITIES"
+        title="What I Build "
+        description="Practical web development skills focused on modern frontend experiences and full-stack MERN applications."
       />
 
       <motion.div
