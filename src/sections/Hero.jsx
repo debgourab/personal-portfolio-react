@@ -89,10 +89,7 @@ export function Hero() {
               fetchPriority="high"
             />
           </div>
-          <div className="profile-badge">
-            <span className="status-pulse" aria-hidden="true" />
-            Open to Work
-          </div>
+         
         </motion.div>
       </div>
     </section>
