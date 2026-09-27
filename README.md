@@ -1,184 +1,209 @@
-# Deb Gourab Biswas Portfolio
+# Deb Gourab Biswas — Developer Portfolio
 
-A modern, responsive personal portfolio for **Deb Gourab Biswas**. This project highlights frontend, React, MERN stack and full-stack development skills through a single-page portfolio with animated sections, project showcases, certificates, education details, services and a Vercel-powered contact form.
+A modern, responsive developer portfolio built with **React**, **Vite**, and **Tailwind CSS** to showcase my Full Stack, MERN Stack, React, and Frontend development skills, projects, certifications, education, and contact information.
 
-## Project Info
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?logo=vercel&logoColor=white)](https://debgourab-biswas-portfolio.vercel.app/)
+[![Repository](https://img.shields.io/badge/Repository-GitHub-181717?logo=github&logoColor=white)](https://github.com/debgourab/personal-portfolio-react)
 
-- **Author:** Deb Gourab Biswas
-- **Repository:** [https://github.com/debgourab/personal-portfolio-react.git](https://github.com/debgourab/personal-portfolio-react.git)
-- **Project type:** Personal portfolio website
-- **Deployment target:** Vercel
+## Live Portfolio
 
-## Features
+**Website:** [https://debgourab-biswas-portfolio.vercel.app/](https://debgourab-biswas-portfolio.vercel.app/)
 
-- Responsive single-page portfolio layout
+## About the Project
+
+This portfolio presents my technical background and hands-on web development work in a clean, recruiter-friendly format. It highlights practical experience with responsive frontend development, React applications, MERN Stack projects, REST APIs, and modern development workflows.
+
+The site is designed as a fast, accessible single-page application with reusable React components, responsive layouts, theme support, animations, project showcases, downloadable resume access, and a working contact form powered by a Vercel Serverless Function and Resend.
+
+## Key Features
+
+- Responsive single-page portfolio for desktop, tablet, and mobile
 - Dark and light theme with saved user preference
 - Fixed navigation with active section highlighting
-- Animated hero, cards and section reveals
-- About, skills, education, certifications, services, projects and contact sections
-- Project cards with live demo and GitHub links
-- Certificate image links that open in a new tab
-- Vercel serverless contact API at `/api/contact`
-- Resend email integration for contact form delivery
-- SEO metadata, Open Graph metadata and custom favicon
-- Scroll-to-top button and reduced-motion friendly animations
+- Animated hero, cards, and section transitions
+- About, technical skills, education, certifications, capabilities, projects, and contact sections
+- Project cards with GitHub repositories and live demo links
+- Certificate previews with external viewing support
+- Downloadable resume
+- Contact form with validation and email delivery
+- Vercel Serverless API at `/api/contact`
+- Resend integration for portfolio messages
+- SEO metadata, Open Graph metadata, and custom favicon
+- Reduced-motion support and scroll-to-top navigation
 
 ## Tech Stack
 
-- **Frontend:** React 19, React DOM
-- **Build tool:** Vite 8
-- **Styling:** Tailwind CSS 4 with `@tailwindcss/vite`
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
-- **Backend/API:** Vercel Serverless Functions
-- **Email service:** Resend
-- **Linting:** ESLint
-- **Package manager:** npm
+| Area | Technologies |
+| --- | --- |
+| Frontend | React 19, React DOM |
+| Build Tool | Vite 8 |
+| Styling | Tailwind CSS 4, custom CSS |
+| Animations | Framer Motion |
+| Icons | Lucide React |
+| API | Vercel Serverless Functions |
+| Email | Resend |
+| Quality | ESLint |
+| Deployment | Vercel |
+| Version Control | Git & GitHub |
 
 ## Project Structure
 
 ```text
 personal-portfolio-react/
-  api/
-    contact.js
-  public/
-    images/
-      about/
-      certificates/
-      education/
-      profile/
-      projects/
-    resume/
-    favicon.svg
-    logo.jpeg
-  src/
-    components/
-    data/
-      portfolioData.js
-    hooks/
-    sections/
-    utils/
-    App.jsx
-    index.css
-    main.jsx
-  .env
-  .env.example
-  .gitignore
-  eslint.config.js
-  index.html
-  package.json
-  package-lock.json
-  vite.config.js
+├── api/
+│   └── contact.js
+├── public/
+│   ├── images/
+│   │   ├── about/
+│   │   ├── certificates/
+│   │   ├── education/
+│   │   ├── profile/
+│   │   └── projects/
+│   ├── resume/
+│   ├── favicon.svg
+│   └── logo.jpeg
+├── src/
+│   ├── components/
+│   ├── data/
+│   │   └── portfolioData.js
+│   ├── hooks/
+│   ├── sections/
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env.example
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
 ```
 
-## Environment Variables
+## Getting Started
 
-The project includes a local `.env` file with safe placeholder values. Replace those placeholders with real values before testing the contact form.
+### Prerequisites
 
-```env
-RESEND_API_KEY=re_replace_with_your_resend_api_key
-CONTACT_FROM_EMAIL="Portfolio <hello@yourdomain.com>"
-CONTACT_TO_EMAIL=debgourabbiswas@gmail.com
-CONTACT_ALLOWED_ORIGIN=https://your-vercel-domain.vercel.app
-VITE_CONTACT_ENDPOINT=/api/contact
-```
+- Node.js 20 or newer
+- npm
+- Git
 
-Use these variables as follows:
-
-| Variable | Purpose |
-| --- | --- |
-| `RESEND_API_KEY` | API key from Resend for sending contact form emails |
-| `CONTACT_FROM_EMAIL` | Verified sender email in Resend |
-| `CONTACT_TO_EMAIL` | Email address that receives portfolio messages |
-| `CONTACT_ALLOWED_ORIGIN` | Production site URL allowed by the API CORS headers |
-| `VITE_CONTACT_ENDPOINT` | Frontend endpoint for the contact form request |
-
-For production, add the same environment variables in **Vercel Project Settings > Environment Variables**. Keep `VITE_CONTACT_ENDPOINT=/api/contact` when the frontend and serverless function are deployed together on Vercel.
-
-Do not commit real secrets to GitHub. The `.gitignore` file already ignores `.env` and other local environment files.
-
-## Run Locally
-
-Make sure Node.js 20 or newer and npm are installed.
-
-1. Clone the repository:
+### Installation
 
 ```bash
 git clone https://github.com/debgourab/personal-portfolio-react.git
 cd personal-portfolio-react
-```
-
-2. Install dependencies:
-
-```bash
 npm install
 ```
 
-3. Configure environment variables:
+Create a local environment file:
 
 ```bash
 cp .env.example .env
 ```
 
-Update `.env` with your Resend API key, verified sender email, receiver email and local or production URL.
-
-4. Start the Vite development server:
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-5. Open the local URL shown in the terminal, usually:
+Then open the local URL shown by Vite, usually:
 
 ```text
 http://localhost:5173
 ```
 
-For full local contact form testing with the Vercel serverless API, install and use Vercel CLI:
+## Environment Variables
 
-```bash
-npm install -g vercel
-vercel dev
+The contact form uses a Vercel Serverless Function and Resend.
+
+```env
+RESEND_API_KEY=re_your_resend_api_key
+CONTACT_FROM_EMAIL="Portfolio <verified-sender@yourdomain.com>"
+CONTACT_TO_EMAIL=your-email@example.com
+CONTACT_ALLOWED_ORIGIN=https://your-production-domain.vercel.app
+VITE_CONTACT_ENDPOINT=/api/contact
 ```
+
+| Variable | Purpose |
+| --- | --- |
+| `RESEND_API_KEY` | Secret Resend API key used by the serverless function |
+| `CONTACT_FROM_EMAIL` | Verified sender address configured in Resend |
+| `CONTACT_TO_EMAIL` | Address that receives portfolio contact messages |
+| `CONTACT_ALLOWED_ORIGIN` | Allowed production origin for the contact API |
+| `VITE_CONTACT_ENDPOINT` | Frontend endpoint used to submit the form |
+
+> **Security:** Never commit real API keys or secrets to GitHub. Store production values in **Vercel → Project Settings → Environment Variables**.
+
+For Resend testing, you can use the test sender provided by Resend. For production, use a sender address from a verified domain.
+
+## Contact Form Flow
+
+```text
+Visitor
+   ↓
+React Contact Form
+   ↓
+POST /api/contact
+   ↓
+Vercel Serverless Function
+   ↓
+Resend API
+   ↓
+Portfolio Inbox
+```
+
+The API validates the submitted name, email, subject, and message before attempting delivery.
 
 ## Available Scripts
 
-```bash
-npm run dev
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the Vite development server |
+| `npm run build` | Create a production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint checks |
+
+## Updating Portfolio Content
+
+Most portfolio content is centralized in:
+
+```text
+src/data/portfolioData.js
 ```
 
-Starts the local Vite development server.
+Use this file to update:
 
-```bash
-npm run build
+- Hero content and developer roles
+- Social links
+- About information
+- Education and training
+- Technical skills
+- Certifications
+- Development capabilities
+- Featured projects
+- Contact details
+- Footer links
+
+Images are stored under:
+
+```text
+public/images/
 ```
 
-Creates a production build in the `dist` folder.
+The downloadable resume is expected at:
 
-```bash
-npm run preview
+```text
+public/resume/Deb-Gourab-Biswas-Resume.pdf
 ```
 
-Previews the production build locally.
+## Deployment
 
-```bash
-npm run lint
-```
+The project is deployed on **Vercel**.
 
-Runs ESLint checks for the project.
-
-## Deploy On Vercel
-
-1. Push the project to GitHub:
-
-```bash
-git add .
-git commit -m "Prepare portfolio for Vercel deployment"
-git push origin main
-```
-
-2. Open [Vercel](https://vercel.com/) and import the GitHub repository.
-3. Use the default Vite configuration:
+Recommended settings:
 
 ```text
 Framework Preset: Vite
@@ -187,84 +212,30 @@ Output Directory: dist
 Install Command: npm install
 ```
 
-4. Add the environment variables in Vercel:
-
-```text
-RESEND_API_KEY
-CONTACT_FROM_EMAIL
-CONTACT_TO_EMAIL
-CONTACT_ALLOWED_ORIGIN
-VITE_CONTACT_ENDPOINT
-```
-
-5. Deploy the project.
-6. After deployment, update `CONTACT_ALLOWED_ORIGIN` to the final production URL, then redeploy.
-
-## Contact Form Setup
-
-The contact form submits to `/api/contact`. The API route validates the form data, sends the email through Resend and returns a success or error message to the frontend.
-
-Before the contact form can send emails:
-
-1. Create or log in to a Resend account.
-2. Verify the sender domain or sender email in Resend.
-3. Generate a Resend API key.
-4. Add the API key and email values to `.env` for local testing.
-5. Add the same values to Vercel environment variables for production.
-
-If `RESEND_API_KEY`, `CONTACT_FROM_EMAIL` or `CONTACT_TO_EMAIL` is missing, the API will return a configuration error instead of sending an email.
-
-## Updating Portfolio Content
-
-Most portfolio data is stored in:
-
-```text
-src/data/portfolioData.js
-```
-
-Update this file to change:
-
-- Navigation links
-- Hero text and roles
-- Social links
-- About content
-- Education entries
-- Skills
-- Certificates
-- Services
-- Projects
-- Contact details
-- Footer links
-
-## Updating Images And Resume
-
-Project, certificate, education, about and profile images are stored in:
-
-```text
-public/images/
-```
-
-Add the resume PDF at:
-
-```text
-public/resume/Deb-Gourab-Biswas-Resume.pdf
-```
-
-The resume path is configured in `src/data/portfolioData.js`.
-
-## Pre-Deployment Checklist
-
-Before deploying or pushing final changes:
+Before deploying:
 
 ```bash
 npm run lint
 npm run build
 ```
 
-Also confirm:
+Then confirm that:
 
-- Real secrets are not committed to GitHub
-- Environment variables are added in Vercel
-- The resume PDF exists if the Download CV button should work
-- All project live links and GitHub links are correct
-- `CONTACT_ALLOWED_ORIGIN` matches the final deployed Vercel URL
+- Required environment variables are configured in Vercel
+- `CONTACT_ALLOWED_ORIGIN` matches the production site URL
+- Project GitHub and live-demo links are correct
+- The resume file exists
+- No secrets are committed to the repository
+
+## Author
+
+**Deb Gourab Biswas**  
+Full Stack Developer | MERN Stack | React.js | JavaScript
+
+- **Portfolio:** [debgourab-biswas-portfolio.vercel.app](https://debgourab-biswas-portfolio.vercel.app/)
+- **GitHub:** [github.com/debgourab](https://github.com/debgourab)
+- **Repository:** [personal-portfolio-react](https://github.com/debgourab/personal-portfolio-react)
+
+---
+
+If you find this project useful, feel free to explore the code and connect with me through the portfolio.
