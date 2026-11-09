@@ -268,6 +268,54 @@ export const services = [
 
 export const projects = [
   {
+    title: "YouTube Clone-MERN",
+    description:
+      "A full-stack MERN YouTube Clone featuring JWT authentication, MongoDB-backed video/channel/comment data, searchable video feeds, category filters, responsive YouTube-style UI, video playback, likes/dislikes, comments and channel-based video management.",
+    image: "/images/projects/youtube-clone.webp",
+    live: "https://youtube-mern-deb.vercel.app",
+    github: "https://github.com/debgourab/Youtube-mern",
+    tech: ["React", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "JWT"],
+    icon: MonitorSmartphone,
+  },
+  {
+    title: "ExpenseFlow-FullStack",
+    description:
+      "A full-stack expense tracking application with secure authentication, expense CRUD operations, filtering, sorting, dashboard summaries, and CSV export for simple personal finance management.",
+    image: "/images/projects/expenseflow.png",
+    live: "https://expensetracker-deb.vercel.app",
+    github: "https://github.com/debgourab/expense-tracker-client",
+    tech: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT", "REST API"],
+    icon: IndianRupee,
+  },
+  {
+    title: "ShoppyGlobe-MERN",
+    description:
+      "A full-stack e-commerce application with product browsing, cart management, secure JWT authentication, RESTful APIs and MongoDB-backed data.",
+    image: "/images/projects/shoppyglobe-mern.png",
+    live: "https://shoppyglobe-deb.vercel.app",
+    github: "https://github.com/debgourab/shoppyglobe-ui",
+    tech: [
+      "React",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "RESTful APIs",
+    ],
+    icon: ShoppingCart,
+  },
+   {
+    title: "Novella - Online Library-React",
+    description:
+      "A responsive online library application with a clean interface for browsing and exploring books.",
+    image: "/images/projects/novella-online-library.webp",
+    live: "https://online-library-internsala.vercel.app/",
+    github: "https://github.com/debgourab/Online-Library--React.git",
+    tech: ["React", "JavaScript", "REST API", "HTML", "CSS"],
+    icon: BookOpen,
+  },
+  {
     title: "Worker Hub",
     description:
       "A modern responsive platform for finding and connecting with skilled local workers.",
@@ -294,54 +342,8 @@ export const projects = [
     ],
     icon: Gauge,
   },
-  {
-    title: "Novella - Online Library-React",
-    description:
-      "A responsive online library application with a clean interface for browsing and exploring books.",
-    image: "/images/projects/novella-online-library.webp",
-    live: "https://online-library-internsala.vercel.app/",
-    github: "https://github.com/debgourab/Online-Library--React.git",
-    tech: ["React", "JavaScript", "REST API", "HTML", "CSS"],
-    icon: BookOpen,
-  },
-  {
-    title: "ExpenseFlow-FullStack",
-    description:
-      "A full-stack expense tracking application with secure authentication, expense CRUD operations, filtering, sorting, dashboard summaries, and CSV export for simple personal finance management.",
-    image: "/images/projects/expenseflow.png",
-    live: "https://expensetracker-deb.vercel.app/",
-    github: "https://github.com/debgourab/expense-tracker-client",
-    tech: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "MongoDB", "JWT", "REST API"],
-    icon: IndianRupee,
-  },
-  {
-    title: "ShoppyGlobe-MERN",
-    description:
-      "A full-stack e-commerce application with product browsing, cart management, secure JWT authentication, RESTful APIs and MongoDB-backed data.",
-    image: "/images/projects/shoppyglobe-mern.png",
-    live: "https://shoppyglobe-deb.vercel.app/",
-    github: "https://github.com/debgourab/shoppyglobe-ui",
-    tech: [
-      "React",
-      "Redux Toolkit",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
-      "RESTful APIs",
-    ],
-    icon: ShoppingCart,
-  },
-  {
-    title: "YouTube Clone-MERN",
-    description:
-      "A full-stack MERN YouTube Clone featuring JWT authentication, MongoDB-backed video/channel/comment data, searchable video feeds, category filters, responsive YouTube-style UI, video playback, likes/dislikes, comments and channel-based video management.",
-    image: "/images/projects/youtube-clone.webp",
-    live: "https://youtube-clone-deb.netlify.app/",
-    github: "https://github.com/debgourab/YouTube-Clone",
-    tech: ["React", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "JWT"],
-    icon: MonitorSmartphone,
-  },
+ 
+ 
 ];
 
 export const availability = {
